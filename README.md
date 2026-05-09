@@ -6,6 +6,8 @@ This project implements a Zapier CLI integration for `Wistia` with:
 - one polling trigger: `New Media`
 - one create action: `Create Folder`
 
+The integration was validated locally with `zapier validate`, pushed successfully to Zapier, and tested successfully in the Zapier workflow editor against a real Wistia account.
+
 ## High-Level API Description
 
 Wistia is a video hosting and media management platform. Its Data API exposes account metadata, media records, folders, and related resources over HTTPS with Bearer token authentication.
@@ -131,6 +133,8 @@ Zapier app URL:
 
 - `https://developer.zapier.com/app/241521`
 
+Note: the Zapier app is private and was used to validate the integration during development. The primary delivery artifact for review is the public GitHub repository for this project.
+
 ## How To Run
 
 Install dependencies:
@@ -165,7 +169,7 @@ npx zapier invoke create create_folder --inputData "{\"name\":\"Zapier Test Fold
 
 ## Submission Notes
 
-The following commands were used during setup and deployment:
+The project is ready to submit as a public GitHub repository. During development and verification, the following Zapier CLI commands were used:
 
 1. Log in to Zapier CLI:
 
@@ -186,9 +190,7 @@ zapier push
    - testing the `New Media` trigger
    - testing the `Create Folder` action
 
-4. Submit either:
-   - the public GitHub repository URL, or
-   - the pushed app URL from Zapier Developer Platform
+4. For submission, the recommended artifact is the public GitHub repository URL. The private Zapier app URL can be included as supporting context, but it is not the primary review artifact.
 
 ## Notes For Reviewers
 
