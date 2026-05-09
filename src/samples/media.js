@@ -1,0 +1,15 @@
+module.exports = {
+  id: 'abc123hashedid',
+  numeric_id: 123456789,
+  name: 'Welcome Video',
+  description: 'Homepage explainer video',
+  hashed_id: 'abc123hashedid',
+  type: 'Video',
+  status: 'ready',
+  archived: false,
+  progress: 1,
+  created: '2026-04-30T14:15:22+00:00',
+  updated: '2026-05-01T09:00:00+00:00',
+  duration: 62.4,
+  thumbnail_url: 'https://embed-ssl.wistia.com/deliveries/example.jpg',
+};
